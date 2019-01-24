@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New User</title>
+</head>
+<body>
+    <h1>New User</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Save</button>
+
+        {% if user %}
+            <a href="{% url 'GCacc:delete_user' user.id %}">Delete</a>
+        {% endif %}
+    </form>
+
+
+
+</body>
+</html>
