@@ -25,7 +25,7 @@ SECRET_KEY = '(u(%90u8fl==9@fq)1g2tkz@zd$7u)-^6&na10hxs-6b9in%mn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://testedjango-env.azbm48r6p7.sa-east-1.elasticbeanstalk.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
